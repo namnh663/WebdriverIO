@@ -143,7 +143,7 @@ export const config = {
               // Set the Slack Options used webhook.
               slackOptions: {
                 type: 'webhook',
-                webhook: 'https://hooks.slack.com/services/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',
+                webhook: '',
                 slackName: 'WebdriverIO Reporter',
                 slackIconUrl: 'https://webdriver.io/img/webdriverio.png',
               },
