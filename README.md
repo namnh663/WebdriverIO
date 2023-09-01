@@ -73,7 +73,7 @@ By default, the tests generate console output for each scenario. Additionally, y
 
 #### Slack notification screenshot
 
-
+![screenshot](https://raw.githubusercontent.com/namnh663/WebdriverIO/main/data/img/slack.png)
 
 #### wdio.conf.js
 ```js
