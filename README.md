@@ -10,7 +10,7 @@ Make sure you have Node.js installed on your machine. You can download it from t
 1. Clone this repository to your local machine:
 
     ```shell
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/namnh663/WebdriverIO.git
     ```
 
 2. Navigate to the cloned directory:
