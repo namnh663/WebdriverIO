@@ -77,8 +77,6 @@ The wdio.conf.js file contains the configuration settings for WebdriverIO. You c
 
 - `capabilities`: The browser capabilities for running the tests (e.g., Chrome, Firefox).
 
-- `reporters`: The reporters to generate test reports (e.g., spec, allure).
-
 ## Folder Structure
 The project follows a specific folder structure to organize the test scenarios and automation scripts. Here's an overview:
 
