@@ -36,6 +36,37 @@ To execute the test scenarios, follow these steps:
     npm run <YOUR_SCRIPT_KEY_IN_PACKAGE.JSON>
     ```
 
+For run with `tag` in Cucumber:
+
+```gherkin
+Feature: Login to Swag Labs
+
+  @TC-LOGIN-1
+  Scenario Outline: Successful login
+
+    Given I am on the login page
+    When I login with <username> and <password>
+    Then I should see Products title
+
+    Examples:
+      | username      | password     |
+      | standard_user | secret_sauce |
+```
+
+In your `package.json` file, add the following code to specify the tag expressions you want to use:
+
+```json
+{
+  "scripts": {
+    "tag": "wdio run ./wdio.conf.js --cucumberOpts.tagExpression='@TC-LOGIN-1'"
+  }
+}
+```
+
+In this example, the `tag` is set to `@TC-LOGIN-1`, which means that only scenarios tagged with `@TC-LOGIN-1` will be executed.
+
+https://docs.google.com/spreadsheets/d/1HE1bMMztXkqoShD0vNOh_FE6va96WYkIiDsquOLHhCY/edit?usp=sharing
+
 ## Configuration
 
 The wdio.conf.js file contains the configuration settings for WebdriverIO. You can modify this file to customize the behavior of the test execution. Some important configuration options include:
