@@ -65,7 +65,9 @@ In your `package.json` file, add the following code to specify the tag expressio
 
 In this example, the `tag` is set to `@TC-LOGIN-1`, which means that only scenarios tagged with `@TC-LOGIN-1` will be executed.
 
-https://docs.google.com/spreadsheets/d/1HE1bMMztXkqoShD0vNOh_FE6va96WYkIiDsquOLHhCY/edit?usp=sharing
+![screenshot](https://raw.githubusercontent.com/namnh663/WebdriverIO/main/data/img/tcs.png)
+
+Test case: https://docs.google.com/spreadsheets/d/1HE1bMMztXkqoShD0vNOh_FE6va96WYkIiDsquOLHhCY/edit?usp=sharing
 
 ## Configuration
 
