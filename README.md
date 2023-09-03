@@ -147,8 +147,6 @@ export.config = {
 ## Troubleshooting
 If you encounter any issues or errors while running the tests, make sure you have followed the setup instructions correctly. Verify that all dependencies are installed, and the configuration settings are accurate.
 
-Feel free to reach out to me if you need any assistance or have any questions regarding this test automation project.
-
 Happy testing!
 
 
